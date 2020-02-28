@@ -1,0 +1,7 @@
+SELECT COUNT(*)
+FROM order_details
+WHERE unitprice BETWEEN 10 AND 20;
+
+SELECT COUNT(*)
+FROM orders
+WHERE shippeddate BETWEEN '1996-06-01' AND '1996-09-30';
